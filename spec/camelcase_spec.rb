@@ -10,6 +10,6 @@ describe "camelcase" do
   end
 
   it "returns 'hello There Friend' when given 'helloThereFriend'" do
-    expect(camelCase(helloThereFriend)).to eq 'hello There Friend'
+    expect(camelCase('helloThereFriend')).to eq 'hello There Friend'
   end
 end  

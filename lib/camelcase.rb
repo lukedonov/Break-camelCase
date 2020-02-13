@@ -1,15 +1,8 @@
 
 def camelCase(string)
-    array = string.chars
-    array.map! do |letter|
-       if letter == letter.upcase
-        letter = " " + letter
-       else 
-        letter
-       end
-    end
-    array.join
-
+    arr = string.chars
+    arr.map! {|l| l == l.upcase ? l = " " + l : l}
+    arr.join
 end
 
 
