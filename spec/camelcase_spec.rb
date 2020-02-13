@@ -2,6 +2,10 @@ require 'camelcase'
 
 describe "camelcase" do
   it "returns 'camel case' when given 'camelCase'" do
-  expect(camelcase('camelCase')).to eq 'camel case'
+  expect(camelCase('camelCase')).to eq 'camel Case'
+  end
+
+  it "returns 'luke donovan' when given 'lukeDonovan'" do
+    expect(camelCase('lukeDonovan')).to eq 'luke Donovan'
   end
 end  
