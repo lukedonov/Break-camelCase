@@ -4,14 +4,11 @@ This is a short program that breaks camelCase and returns the words as string.
 
 ## Getting started
 
-`git clone `
+`git clone https://github.com/lukedonov/Break-camelCase.git`
 
 ## Usage
-
-`command_to_start` (e.g. `rackup` or `rails s`)
-Navigate to `http://localhost:4567/`
-
+To use, run ruby camelcase.rb
 
 ## Running tests
-
-`test_command` (e.g. `rspec`)
+From root directory run:
+`rspec spec/camelcase_spec.rb` or `rspec`
